@@ -1,0 +1,28 @@
+{
+  "name": "introNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"skere\" && exit 1",
+    "start": "node index.js",
+    "fv": "fastify --version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.3.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^6.0.0"
+  },
+  "devDependencies": {
+    "fastify-cli": "^8.0.0"
+  }
+}
